@@ -1,0 +1,2 @@
+json=org.example.rpc.protocol.serialization.JsonSerialization
+hessian=org.example.rpc.protocol.serialization.HessianSerialization

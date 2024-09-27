@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
  */
 public class ServiceAfterFilterHandler extends SimpleChannelInboundHandler<RpcProtocol<RpcResponse>> {
 
-    private Logger logger = LoggerFactory.getLogger(ClientLogFilter.class);
+    private Logger logger = LoggerFactory.getLogger(ServiceAfterFilterHandler.class);
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, RpcProtocol<RpcResponse> protocol) {
